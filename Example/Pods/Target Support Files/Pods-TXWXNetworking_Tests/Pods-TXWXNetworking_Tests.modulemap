@@ -1,0 +1,6 @@
+framework module Pods_TXWXNetworking_Tests {
+  umbrella header "Pods-TXWXNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

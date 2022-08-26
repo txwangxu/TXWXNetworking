@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12028F057D134614B1D3B9F4797F02D1 /* Pods-TXWXNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B673046A888A6737ADAD69EABEF0419C /* Pods-TXWXNetworking_Example-dummy.m */; };
+		1BD8DC71532F4314BF90453863562B59 /* Pods-TXWXNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 478B2269A66C5C5B805B7C86B1691788 /* Pods-TXWXNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E8D29AF8E8458DA1A187ABD6FA57FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C4ABADD1E1F074D0B5D07DB976A186C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45A85BF2D72B92BBCA45A90F65019F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		48911DA2086810D3F09B86E1FBC4FA64 /* Pods-TXWXNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 044344650B44A4BC14C3709644344C16 /* Pods-TXWXNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4EFC75ED6E4F5CECB6C5AE445CBF428 /* TXWXNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5416E5782340A02B3F86994FF7817CF5 /* TXWXNetworking-dummy.m */; };
+		F6BDB95C42B95F56BACBDAFF75522951 /* Pods-TXWXNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A485335A2CC00FEFFD1884076B205838 /* Pods-TXWXNetworking_Tests-dummy.m */; };
+		F8BD975361C3351C2473BBF7F72E4760 /* TXWXNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10386D5F61F4C9DC0DDCA00A378E9228 /* TXWXNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB4373743947FAB303A25B19A178037 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EA378CAFB3505D83A0B9BBF9E3D2A776 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A1890D05F1BAD1383219EF39CD31B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C1754305B57651765E004AFB9D6CE9;
+			remoteInfo = TXWXNetworking;
+		};
+		E745B7C39B109B6F16E2BA0A80375E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633D7EE8F7FD8DBCE4970EDC2038F370;
+			remoteInfo = "Pods-TXWXNetworking_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009CF12C360AF2F8611A2A9BA6F2DF68 /* TXWXNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TXWXNetworking; path = TXWXNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		044344650B44A4BC14C3709644344C16 /* Pods-TXWXNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXWXNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		10386D5F61F4C9DC0DDCA00A378E9228 /* TXWXNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXWXNetworking-umbrella.h"; sourceTree = "<group>"; };
+		1B2F62D7A442EEF9A919737336A79C6C /* TXWXNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXWXNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		1BBFC1605C32088557DA9762C304D164 /* TXWXNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXWXNetworking.release.xcconfig; sourceTree = "<group>"; };
+		1F94382857FD1DEA378E0687D41F914D /* Pods-TXWXNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXWXNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CBEC8F16BD5EE81144E528E042BAEC9 /* Pods-TXWXNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXWXNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
+		2FFA92AB7F00DA55AD1D0E1B2F8A68DE /* Pods-TXWXNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXWXNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		30484869EE411D4EA21817BA7B91028D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		478B2269A66C5C5B805B7C86B1691788 /* Pods-TXWXNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXWXNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D0A4EBCE714CEB15DB8DFFC2883C8D8 /* TXWXNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TXWXNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5272FFEBABBB0D725F9A595DF53799D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5416E5782340A02B3F86994FF7817CF5 /* TXWXNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXWXNetworking-dummy.m"; sourceTree = "<group>"; };
+		5F40E5B446F0CAF1629BA7F99C5C8C28 /* Pods-TXWXNetworking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TXWXNetworking_Example"; path = Pods_TXWXNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6485371C56667F9AD7F4F50724FB5473 /* TXWXNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXWXNetworking-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		753B0BCACF3B7AE06929651E9CC53271 /* Pods-TXWXNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXWXNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8548BD0AB188215F7C711D7CB5461DAB /* Pods-TXWXNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXWXNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8872091E41C1284B596E26995E6E4E71 /* Pods-TXWXNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXWXNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		933386EC19B910BD73EBBE62C7E0D1E0 /* Pods-TXWXNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXWXNetworking_Example-Info.plist"; sourceTree = "<group>"; };
+		96B4CA536704E8F3054DF65CB7D22F4F /* Pods-TXWXNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXWXNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F57F698F4BBDE3DD58737A6F6517D8 /* Pods-TXWXNetworking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TXWXNetworking_Tests"; path = Pods_TXWXNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A485335A2CC00FEFFD1884076B205838 /* Pods-TXWXNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXWXNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
+		A752E299F89648F82737983914D60F2F /* TXWXNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TXWXNetworking-Info.plist"; sourceTree = "<group>"; };
+		B673046A888A6737ADAD69EABEF0419C /* Pods-TXWXNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXWXNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		DF7BC6E0472A1755EB95DEE5F0DBF125 /* Pods-TXWXNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXWXNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		E65B214759904CDEAE2D45C5265A4F27 /* TXWXNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TXWXNetworking.modulemap; sourceTree = "<group>"; };
+		EA378CAFB3505D83A0B9BBF9E3D2A776 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TXWXNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EE6EF9277F5046E4C74E522F43DB4B04 /* Pods-TXWXNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXWXNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F318071A8BE3626FBC5F69D6BE03ECE2 /* Pods-TXWXNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXWXNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FD48AE10B71B144B2954381C682637B9 /* Pods-TXWXNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXWXNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE03E51B718787FB6A0152EB67D7ADA5 /* Pods-TXWXNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXWXNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26562752CA6FF4AF2DD6461E1C02A4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D29AF8E8458DA1A187ABD6FA57FBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E327E1155BFAC1CC68028E20DC8ECA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A85BF2D72B92BBCA45A90F65019F29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92548112645D91A279C23DC81EDBF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4ABADD1E1F074D0B5D07DB976A186C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0988C3C4E199777B27436F649474B0CB /* TXWXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EA378CAFB3505D83A0B9BBF9E3D2A776 /* ReplaceMe.m */,
+				EEBE9854B100A8E8D06EF8AC89B87CAD /* Pod */,
+				503A21703E8F5B8CA12AE10505E8CB5A /* Support Files */,
+			);
+			name = TXWXNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		33F858FBD50C2A645F80175583606DBA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0988C3C4E199777B27436F649474B0CB /* TXWXNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		495AE211EEF3C8EFDFFF9602E6474B52 /* Pods-TXWXNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BC6E0472A1755EB95DEE5F0DBF125 /* Pods-TXWXNetworking_Tests.modulemap */,
+				8872091E41C1284B596E26995E6E4E71 /* Pods-TXWXNetworking_Tests-acknowledgements.markdown */,
+				FD48AE10B71B144B2954381C682637B9 /* Pods-TXWXNetworking_Tests-acknowledgements.plist */,
+				A485335A2CC00FEFFD1884076B205838 /* Pods-TXWXNetworking_Tests-dummy.m */,
+				2CBEC8F16BD5EE81144E528E042BAEC9 /* Pods-TXWXNetworking_Tests-Info.plist */,
+				478B2269A66C5C5B805B7C86B1691788 /* Pods-TXWXNetworking_Tests-umbrella.h */,
+				96B4CA536704E8F3054DF65CB7D22F4F /* Pods-TXWXNetworking_Tests.debug.xcconfig */,
+				FE03E51B718787FB6A0152EB67D7ADA5 /* Pods-TXWXNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-TXWXNetworking_Tests";
+			path = "Target Support Files/Pods-TXWXNetworking_Tests";
+			sourceTree = "<group>";
+		};
+		503A21703E8F5B8CA12AE10505E8CB5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65B214759904CDEAE2D45C5265A4F27 /* TXWXNetworking.modulemap */,
+				5416E5782340A02B3F86994FF7817CF5 /* TXWXNetworking-dummy.m */,
+				A752E299F89648F82737983914D60F2F /* TXWXNetworking-Info.plist */,
+				6485371C56667F9AD7F4F50724FB5473 /* TXWXNetworking-prefix.pch */,
+				10386D5F61F4C9DC0DDCA00A378E9228 /* TXWXNetworking-umbrella.h */,
+				1B2F62D7A442EEF9A919737336A79C6C /* TXWXNetworking.debug.xcconfig */,
+				1BBFC1605C32088557DA9762C304D164 /* TXWXNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TXWXNetworking";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		592ECCB4C2153B66D36A6393B44653ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF6F2B7768F490C42E688110A163DA1 /* Pods-TXWXNetworking_Example */,
+				495AE211EEF3C8EFDFFF9602E6474B52 /* Pods-TXWXNetworking_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C7CB52EE3BB78B771A4911111FCFDF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F40E5B446F0CAF1629BA7F99C5C8C28 /* Pods-TXWXNetworking_Example */,
+				A1F57F698F4BBDE3DD58737A6F6517D8 /* Pods-TXWXNetworking_Tests */,
+				009CF12C360AF2F8611A2A9BA6F2DF68 /* TXWXNetworking */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				33F858FBD50C2A645F80175583606DBA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C7CB52EE3BB78B771A4911111FCFDF51 /* Products */,
+				592ECCB4C2153B66D36A6393B44653ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF6F2B7768F490C42E688110A163DA1 /* Pods-TXWXNetworking_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA92AB7F00DA55AD1D0E1B2F8A68DE /* Pods-TXWXNetworking_Example.modulemap */,
+				1F94382857FD1DEA378E0687D41F914D /* Pods-TXWXNetworking_Example-acknowledgements.markdown */,
+				8548BD0AB188215F7C711D7CB5461DAB /* Pods-TXWXNetworking_Example-acknowledgements.plist */,
+				B673046A888A6737ADAD69EABEF0419C /* Pods-TXWXNetworking_Example-dummy.m */,
+				F318071A8BE3626FBC5F69D6BE03ECE2 /* Pods-TXWXNetworking_Example-frameworks.sh */,
+				933386EC19B910BD73EBBE62C7E0D1E0 /* Pods-TXWXNetworking_Example-Info.plist */,
+				044344650B44A4BC14C3709644344C16 /* Pods-TXWXNetworking_Example-umbrella.h */,
+				753B0BCACF3B7AE06929651E9CC53271 /* Pods-TXWXNetworking_Example.debug.xcconfig */,
+				EE6EF9277F5046E4C74E522F43DB4B04 /* Pods-TXWXNetworking_Example.release.xcconfig */,
+			);
+			name = "Pods-TXWXNetworking_Example";
+			path = "Target Support Files/Pods-TXWXNetworking_Example";
+			sourceTree = "<group>";
+		};
+		EEBE9854B100A8E8D06EF8AC89B87CAD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30484869EE411D4EA21817BA7B91028D /* LICENSE */,
+				5272FFEBABBB0D725F9A595DF53799D1 /* README.md */,
+				4D0A4EBCE714CEB15DB8DFFC2883C8D8 /* TXWXNetworking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AABCE4F847F6FA6F1E54BB62ECBACFC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD8DC71532F4314BF90453863562B59 /* Pods-TXWXNetworking_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3D46832AD3E4A0FFF5459069AEC478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48911DA2086810D3F09B86E1FBC4FA64 /* Pods-TXWXNetworking_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAE4935186874FE125A8D231F002D10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BD975361C3351C2473BBF7F72E4760 /* TXWXNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09C1754305B57651765E004AFB9D6CE9 /* TXWXNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF49A0C00C99AEB9DA708E45192B8E1C /* Build configuration list for PBXNativeTarget "TXWXNetworking" */;
+			buildPhases = (
+				DDAE4935186874FE125A8D231F002D10 /* Headers */,
+				AAD2D6FF93D740518E1D7358A3EF05BE /* Sources */,
+				9E327E1155BFAC1CC68028E20DC8ECA9 /* Frameworks */,
+				A25853E7204C6D4A44F4844F7E67C699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXWXNetworking;
+			productName = TXWXNetworking;
+			productReference = 009CF12C360AF2F8611A2A9BA6F2DF68 /* TXWXNetworking */;
+			productType = "com.apple.product-type.framework";
+		};
+		2037CAE82E6355A9BFCB8FF3440573B6 /* Pods-TXWXNetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87974F1CB1E2EC1E20A6CF21E1676AA1 /* Build configuration list for PBXNativeTarget "Pods-TXWXNetworking_Tests" */;
+			buildPhases = (
+				AABCE4F847F6FA6F1E54BB62ECBACFC2 /* Headers */,
+				A5369DDDEF6D0BA2EFCBBF4476953D30 /* Sources */,
+				E92548112645D91A279C23DC81EDBF0F /* Frameworks */,
+				4CB50DA6E72E65FD0FF67AB2539758BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04EFF6A8406BFA77C882F7921BE413C /* PBXTargetDependency */,
+			);
+			name = "Pods-TXWXNetworking_Tests";
+			productName = Pods_TXWXNetworking_Tests;
+			productReference = A1F57F698F4BBDE3DD58737A6F6517D8 /* Pods-TXWXNetworking_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		633D7EE8F7FD8DBCE4970EDC2038F370 /* Pods-TXWXNetworking_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE0F70E5F2C321710492EA5274DC182 /* Build configuration list for PBXNativeTarget "Pods-TXWXNetworking_Example" */;
+			buildPhases = (
+				BB3D46832AD3E4A0FFF5459069AEC478 /* Headers */,
+				D03BF2324DF2E80D06EDD409DEB9C827 /* Sources */,
+				26562752CA6FF4AF2DD6461E1C02A4BE /* Frameworks */,
+				FB62999A21BD7CB3DB18C84430C9B383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A057ADF668644307D327BEE1949BC3C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TXWXNetworking_Example";
+			productName = Pods_TXWXNetworking_Example;
+			productReference = 5F40E5B446F0CAF1629BA7F99C5C8C28 /* Pods-TXWXNetworking_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C7CB52EE3BB78B771A4911111FCFDF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633D7EE8F7FD8DBCE4970EDC2038F370 /* Pods-TXWXNetworking_Example */,
+				2037CAE82E6355A9BFCB8FF3440573B6 /* Pods-TXWXNetworking_Tests */,
+				09C1754305B57651765E004AFB9D6CE9 /* TXWXNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB50DA6E72E65FD0FF67AB2539758BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25853E7204C6D4A44F4844F7E67C699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB62999A21BD7CB3DB18C84430C9B383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5369DDDEF6D0BA2EFCBBF4476953D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BDB95C42B95F56BACBDAFF75522951 /* Pods-TXWXNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD2D6FF93D740518E1D7358A3EF05BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB4373743947FAB303A25B19A178037 /* ReplaceMe.m in Sources */,
+				B4EFC75ED6E4F5CECB6C5AE445CBF428 /* TXWXNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03BF2324DF2E80D06EDD409DEB9C827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12028F057D134614B1D3B9F4797F02D1 /* Pods-TXWXNetworking_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A057ADF668644307D327BEE1949BC3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXWXNetworking;
+			target = 09C1754305B57651765E004AFB9D6CE9 /* TXWXNetworking */;
+			targetProxy = 4A1890D05F1BAD1383219EF39CD31B68 /* PBXContainerItemProxy */;
+		};
+		B04EFF6A8406BFA77C882F7921BE413C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXWXNetworking_Example";
+			target = 633D7EE8F7FD8DBCE4970EDC2038F370 /* Pods-TXWXNetworking_Example */;
+			targetProxy = E745B7C39B109B6F16E2BA0A80375E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EF2F020B4B8228858253B69F6F405BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE03E51B718787FB6A0152EB67D7ADA5 /* Pods-TXWXNetworking_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXWXNetworking_Tests/Pods-TXWXNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXWXNetworking_Tests/Pods-TXWXNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19A43983A9223ADC90E573A30E663D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B4CA536704E8F3054DF65CB7D22F4F /* Pods-TXWXNetworking_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXWXNetworking_Tests/Pods-TXWXNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXWXNetworking_Tests/Pods-TXWXNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A8BD7FB51010E751B687B46C170EDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2F62D7A442EEF9A919737336A79C6C /* TXWXNetworking.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXWXNetworking/TXWXNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXWXNetworking/TXWXNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXWXNetworking/TXWXNetworking.modulemap";
+				PRODUCT_MODULE_NAME = TXWXNetworking;
+				PRODUCT_NAME = TXWXNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48CD89FFC99A1C1A21004C622BB6BA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6EF9277F5046E4C74E522F43DB4B04 /* Pods-TXWXNetworking_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXWXNetworking_Example/Pods-TXWXNetworking_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXWXNetworking_Example/Pods-TXWXNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B08CA3B1D5A6AAFDE28B16E90CA5F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 753B0BCACF3B7AE06929651E9CC53271 /* Pods-TXWXNetworking_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXWXNetworking_Example/Pods-TXWXNetworking_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXWXNetworking_Example/Pods-TXWXNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDC2705C0E3B4C9B62670D0F88277CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBFC1605C32088557DA9762C304D164 /* TXWXNetworking.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXWXNetworking/TXWXNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXWXNetworking/TXWXNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXWXNetworking/TXWXNetworking.modulemap";
+				PRODUCT_MODULE_NAME = TXWXNetworking;
+				PRODUCT_NAME = TXWXNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87974F1CB1E2EC1E20A6CF21E1676AA1 /* Build configuration list for PBXNativeTarget "Pods-TXWXNetworking_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A43983A9223ADC90E573A30E663D09 /* Debug */,
+				0EF2F020B4B8228858253B69F6F405BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF49A0C00C99AEB9DA708E45192B8E1C /* Build configuration list for PBXNativeTarget "TXWXNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8BD7FB51010E751B687B46C170EDB0 /* Debug */,
+				DDC2705C0E3B4C9B62670D0F88277CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE0F70E5F2C321710492EA5274DC182 /* Build configuration list for PBXNativeTarget "Pods-TXWXNetworking_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B08CA3B1D5A6AAFDE28B16E90CA5F13 /* Debug */,
+				48CD89FFC99A1C1A21004C622BB6BA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

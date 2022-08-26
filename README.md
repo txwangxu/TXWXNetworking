@@ -22,7 +22,7 @@ pod 'TXWXNetworking'
 
 ## Author
 
-txwangxu, wangxujsqt@dangdang.com
+txwangxu, txwangxu@163.com
 
 ## License
 

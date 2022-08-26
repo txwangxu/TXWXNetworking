@@ -1,0 +1,22 @@
+{
+  "name": "TXWXNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of TXWXNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/txwangxu/TXWXNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "txwangxu": "wangxujsqt@dangdang.com"
+  },
+  "source": {
+    "git": "https://github.com/txwangxu/TXWXNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TXWXNetworking/Classes/**/*"
+}

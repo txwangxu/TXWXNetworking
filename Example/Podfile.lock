@@ -1,0 +1,16 @@
+PODS:
+  - TXWXNetworking (0.1.0)
+
+DEPENDENCIES:
+  - TXWXNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  TXWXNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TXWXNetworking: 0e095c0f615379f0a9534754eb04632cbec44b3e
+
+PODFILE CHECKSUM: 4062ed3d1f77e750b46eacff841cee2dd81c0a3e
+
+COCOAPODS: 1.11.3
